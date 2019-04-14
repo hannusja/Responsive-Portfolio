@@ -34,7 +34,7 @@ a {
     line-height: 1.5;
     color: #777777;
     background-color: #ffffff;
-    min-height: calc(100vh - 95px);
+    min-height: calc(100vh - 90px);
 }
 img {
     padding-right: 30px;
@@ -55,7 +55,7 @@ footer {
     border-style: solid;
     border-width: 5px 0px 0px 0px;
     border-color: #4aaaa5;
-    height: 20px;
+    height: 40px;
 }
 .gameblock {
     position: relative;
@@ -63,13 +63,14 @@ footer {
     height: 150px;
     float: left;
     padding: 10px;
+    margin: 20px;
 }
 .gamename {
     position: absolute;
     bottom: 15px;
     right: 10px;
     left: 10px;
-    width: 180px;
+    width: 200px;
     padding: 10px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -96,29 +97,57 @@ form {
 
 @media screen and (max-width: 980px) {
     .maindiv {
-    width: 960px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 200px;
-    margin-left: 200px;
-    font-family: 'Arial', sans-serif;
-    line-height: 1.5;
-    color: #777777;
-    background-color: #ffffff;
-    min-height: calc(100vh - 95px);
+            width: 100%;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            margin-left: 20px;
+    }
+    header {
+        padding: 10px;
+        width: 30%;
+    }
+    footer {
+        height: 50px;
+    }
+    .gameblock {
+        margin: 20px;
+    }
+    .gamename {
+        width: 200px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .maindiv {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
-
+    header {
+        padding: 10px;
+        width: 30%;
+    }
+    h1 {
+        padding: 20px;
+    }
+    footer {
+        height: 40px;
+    }
+    .gameblock {
+        margin: 20px;
+    }
+    .gamename {
+        width: 200px;
+    }
 }
+
 @media screen and (max-width: 640px) {
    
     nav {
