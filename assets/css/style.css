@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+header {
+    text-align: center;
+    margin: 10px 10px 0px 0px;
+    width: 20%;
+    background-color: #4aaaa5;
+    padding: 20px 10px 20px 10px;
+    font-size: 20px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+}
+nav {
+    float: right;
+    display: block;
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
+    border-right: 1px solid #bbb;
+    padding: 10px;
+}
+.maindiv {
+    width: 960px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #777777;
+    background-color: #ffffff;
+    min-height: calc(100vh - 95px);
+}
+img {
+    padding-right: 30px;
+    float: left;
+}
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-size: 20px;
+}
+footer {
+    font-size: 8px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #666666;
+    padding: 20px 20px 2px 20px;
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: #4aaaa5;
+    height: 20px;
+}
+.gameblock {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+}
+.gamename {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    left: 10px;
+    width: 180px;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+}
+.nofloat {
+    clear: left;
+}
+form {
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.input {
+     width: 100%; 
+}
+.message {
+    height: 150px;
+}
+#submit {
+   padding: 8px 15px 5px 15px; 
+   background-color: #4aaaa5;
+   color: #ffffff;
+}
+
+@media screen and (max-width: 980px) {
+    .maindiv {
+    width: 960px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #777777;
+    background-color: #ffffff;
+    min-height: calc(100vh - 95px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .maindiv {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+
+}
+@media screen and (max-width: 640px) {
+   
+    nav {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    header {
+        width: 100%;
+        clear: right;
+    }
+    h1 {
+        padding: 20px;
+    }
+    img {
+        width: 100%;
+        float: none;
+    }
+    .media {
+        width: 100%;
+        padding: 40px 40px 40px 20px;
+    }
+    footer {
+        height: 40px;
+    }
+    .gameblock {
+        float: none;
+        text-align: center;
+    }
+    .gamename {
+        width: 150px;
+        padding: 10px;
+    }
+    form {
+        padding-right: 40px;
+    }
+}
